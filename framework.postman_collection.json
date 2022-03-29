@@ -1,0 +1,47 @@
+{
+	"info": {
+		"_postman_id": "a5a7a795-fb8d-4967-8388-8a653ee47080",
+		"name": "framework",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get Place Holde Infos",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "framework",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "framework",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5001/placeholder/info",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5001",
+					"path": [
+						"placeholder",
+						"info"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

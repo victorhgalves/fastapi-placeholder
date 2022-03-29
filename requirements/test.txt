@@ -1,0 +1,7 @@
+pytest==7.0.1
+pytest-cov==2.10.1
+pytest-deadfixtures==2.2.1
+pytest-django==4.2.0
+pytest-env==0.6.2
+pytest-mock==3.6.1
+pytest-freezegun==0.4.2
