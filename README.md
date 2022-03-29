@@ -33,7 +33,7 @@ make run
 
 docker build -t api-framework . 
 
-docker run -p 5001:5001 api-framework
+docker run -p 5001:5001 -d api-framework
 
 ```
 
@@ -41,3 +41,6 @@ docker run -p 5001:5001 api-framework
 
 1 - Efetuar Download do framework.postman_collection.json e importar no seu Postman
 
+## Swagger
+
+Acessar http://127.0.0.1:5001/docs
